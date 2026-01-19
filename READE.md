@@ -1,20 +1,50 @@
-# Database Management System Project
+# Database Management System
 
-A Python-based database management system project demonstrating
-CRUD operations and data workflows using CSV files.
+A basic **database management system project** built using Python.  
+This project demonstrates how structured data can be managed using CSV files
+while applying core database concepts such as **CRUD operations**.
+
+This is a learning-focused project created to strengthen my understanding of
+data handling, program structure, and backend logic.
+
+---
 
 ## Tech Stack
 - Python
 - Pandas
 - CSV
+- Jupyter Notebook
+
+---
 
 ## Project Structure
-- Python scripts for logic
-- CSV files as datasets
-- Jupyter notebooks for experimentation
+
+Database-Management-System/
+├── app.py \
+├── demo.py
+├── check_env.py
+├── Customers.csv
+├── Orders.csv
+├── OrderItems.csv
+├── Payments.csv
+├── Products.csv
+├── ecomm.ipynb
+├── requirements.txt
+└── README.md
+
+---
 
 ## How to Run
-1. Clone the repository
-2. Create a virtual environment
-3. Install dependencies
-4. Run `app.py`
+
+Run in terminal
+```bash
+git clone git@github.com:gauravxsarkar/Database-Management-System.git
+cd Database-Management-System
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python app.py
+```
+
+Author: Gaurav Sarkar
+GitHub: @gauravxsarkar
