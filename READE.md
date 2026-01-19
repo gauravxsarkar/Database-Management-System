@@ -18,9 +18,9 @@ data handling, program structure, and backend logic.
 ---
 
 ## Project Structure
-
+```
 Database-Management-System/
-├── app.py \
+├── app.py
 ├── demo.py
 ├── check_env.py
 ├── Customers.csv
@@ -31,7 +31,7 @@ Database-Management-System/
 ├── ecomm.ipynb
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## How to Run
@@ -46,5 +46,5 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Author: Gaurav Sarkar
+Author: Gaurav Sarkar | 
 GitHub: @gauravxsarkar
